@@ -1,2 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Chuyiyue.github.io/Gmek</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Chuyiyue.github.io/Gmek</link></image><lastBuildDate>Wed, 06 Aug 2025 17:51:47 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Chuyiyue.github.io/Gmeek</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Chuyiyue.github.io/Gmeek</link></image><lastBuildDate>Wed, 06 Aug 2025 17:55:04 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>test</title><link>https://Chuyiyue.github.io/Gmeek/post/test.html</link><description>&lt;div class='gravatar-hovercard'&gt;&lt;style&gt;&lt;/style&gt;
+			&lt;div class='gravatar-hovercard__inner'&gt;
+				
+				&lt;div class='gravatar-hovercard__header'&gt;
+					&lt;a class='gravatar-hovercard__avatar-link' href='https://gravatar.com/altracem?utm_source=hovercard' target='_blank'&gt;
+						&lt;img class='gravatar-hovercard__avatar' src='https://1.gravatar.com/avatar/22c4bf106ce79ff964352615b4c9b392bcad31c028beb12a3dd062a47a6f5be5?s=256' width='104' height='104' alt='Altrace'&gt;
+					&lt;/a&gt;
+					&lt;a class='gravatar-hovercard__personal-info-link' href='https://gravatar.com/altracem?utm_source=hovercard' target='_blank'&gt;
+						&lt;h4 class='gravatar-hovercard__name'&gt;Altrace&lt;/h4&gt;
+						
+						&lt;p class='gravatar-hovercard__location'&gt;Xi'an&lt;/p&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+				&lt;div class='gravatar-hovercard__body'&gt;
+								&lt;p class='gravatar-hovercard__description'&gt;喵喵~&lt;/p&gt;
+							&lt;/div&gt;
+				&lt;div class='gravatar-hovercard__social-links'&gt;
+					&lt;a class='gravatar-hovercard__social-link' href='https://gravatar.com/altracem?utm_source=hovercard' target='_blank' data-service-name='gravatar'&gt;
+						&lt;img class='gravatar-hovercard__social-icon' src='https://s.gravatar.com/icons/gravatar.svg' width='32' height='32' alt='Gravatar'&gt;
+					&lt;/a&gt;
+					
+					&lt;a class='gravatar-hovercard__social-link' href='https://x.com/altracem' target='_blank' data-service-name='twitter'&gt;
+						&lt;img class='gravatar-hovercard__social-icon' src='https://s.gravatar.com/icons/x.svg' width='32' height='32' alt='X'&gt;
+					&lt;/a&gt;
+				
+				&lt;/div&gt;
+				
+				&lt;div class='gravatar-hovercard__footer'&gt;
+					&lt;a class='gravatar-hovercard__profile-url' title='https://gravatar.com/altracem' href='https://gravatar.com/altracem?utm_source=profile-card' target='_blank'&gt;
+						gravatar.com/altracem
+					&lt;/a&gt;
+					&lt;a class='gravatar-hovercard__profile-link' href='https://gravatar.com/altracem?utm_source=profile-card' target='_blank'&gt;
+						View profile →
+					&lt;/a&gt;
+				&lt;/div&gt;
+				
+				
+				&lt;div class='gravatar-hovercard__profile-color' style='background: rgb(227, 234, 252);'&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;script&gt;
+		const hovercardInner = document.querySelector('.gravatar-hovercard__inner');
+
+		function openDrawer( target, container ) {
+			const selector = '.gravatar-hovercard__drawer[data-drawer-name='' + target.dataset.targetDrawer + '']';
+			const drawer = container.querySelector( selector );
+			drawer?.classList.add( 'gravatar-hovercard__drawer--open' );
+		}
+
+		function closeDrawer( target, container ) {
+			const selector = '.gravatar-hovercard__drawer[data-drawer-name='' + target.dataset.targetDrawer + '']';
+			const drawer = container.querySelector( selector );
+			drawer?.classList.add( 'gravatar-hovercard__drawer--closing' );
+			drawer?.classList.remove( 'gravatar-hovercard__drawer--open' );
+
+			setTimeout( () =&gt; {
+				drawer?.classList.remove( 'gravatar-hovercard__drawer--closing' );
+			}, 300 );
+		}
+
+		hovercardInner.querySelectorAll( '.gravatar-hovercard__button' ).forEach( ( el ) =&gt; {
+			el.addEventListener( 'click', () =&gt; openDrawer( el, hovercardInner ) );
+		} );
+		hovercardInner.querySelectorAll( '.gravatar-hovercard__drawer-close' ).forEach( ( el ) =&gt; {
+			el.addEventListener( 'click', () =&gt; closeDrawer( el, hovercardInner ) );
+		} );
+		hovercardInner.querySelectorAll( '.gravatar-hovercard__drawer-backdrop' ).forEach( ( el ) =&gt; {
+			el.addEventListener( 'click', () =&gt; closeDrawer( el, hovercardInner ) );
+		} );
+	&lt;/script&gt;&lt;/div&gt;。</description><guid isPermaLink="true">https://Chuyiyue.github.io/Gmeek/post/test.html</guid><pubDate>Wed, 06 Aug 2025 17:52:50 +0000</pubDate></item></channel></rss>
